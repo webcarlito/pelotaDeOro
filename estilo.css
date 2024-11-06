@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(43, 70, 46); /* Fondo */
+    color: #fff; /* Texto blanco */
+    height: 100vh; /* Altura del 100% del viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(247, 247, 247);
+    text-shadow: 12px 12px 12px black;
+}
+
+a {
+    color: #000000; /* Hipervínculos */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #471924; /* Fondo en el header */
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #696819; /* Hipervínculos del menú */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    color: #ffcc00;
+}
+
+/* Estilos para la imagen principal */
+
+.contenidoo {
+    flex:content;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+/* Estilos específicos para otras páginas */
+.tabla-ganadores {
+    width: 50%; /* La tabla ocupa la mitad izquierda */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #111; /* Color oscuro en la tabla */
+    color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #fff; /* Bordes blancos */
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #ffcc00; /* Cabeceras doradas */
+    color: #000;
+}
+/* la imagen de ganadores tiene que estar arriba alaa derecha alado de la tabla*/
+.imagen-ganadores {
+    width: 35%; /* La imagen ocupa el 35% del ancho */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-ganadores img {
+    max-width: 100%; /* Asegura que la imagen no sobrepase su contenedor */
+    height: auto;
+    border: 5px solid #111; /* Bordes oscuros */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); /* Sombra suave */
+}
