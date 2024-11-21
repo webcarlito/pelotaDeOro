@@ -72,6 +72,10 @@ footer {
     align-items:center;
 
 }
+.liga {
+    right: 40%;
+    flex:content;
+}
 
 /* Estilos específicos para otras páginas */
 .tabla-ganadores {
@@ -95,9 +99,9 @@ table th {
     background-color: #ffcc00; /* Cabeceras doradas */
     color: #000;
 }
-/* la imagen de ganadores tiene que estar arriba alaa derecha alado de la tabla*/
+/* la imagen de ganadores esta abajo de la tabla*/
 .imagen-ganadores {
-    width: 35%; /* La imagen ocupa el 35% del ancho */
+    width: 50%; /* La imagen ocupa el 35% del ancho */
     display: flex;
     justify-content: center;
     align-items: center;
